@@ -1,0 +1,12 @@
+.NavBar-Link {
+  color: red;
+  text-transform: uppercase;
+}
+
+.NavBar-Link:hover {
+  text-decoration: none;
+}
+
+.NavBar-Link:active {
+  color: black;
+}

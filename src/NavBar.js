@@ -1,28 +1,31 @@
-import React from "react";
-import "./NavBar.css";
-import { NavLink } from "react-router-dom";
+import React from 'react';
+import './NavBar.css';
+import { Link } from 'react-router-dom';
+import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 
 function NavBar() {
   return (
     <div>
-      <Navbar expand="md">
-        <NavLink exact to="/" className="navbar-brand">
-          Snack or Booze
-        </NavLink>
+      <Navbar sticky="top" bg="dark" variant="dark" expand="lg">
+        <Navbar.Brand>
+          <Link className="NavBar-Link" to="/">Sairina</Link>
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="ml-auto">
+            <Nav.Link as={Link} to="/about-me">About</Nav.Link>
+            <Nav.Link as={Link} to="/about-me">Contact</Nav.Link>
+            <Nav.Link as={Link} to="/resume">Resume</Nav.Link>
 
-        <Nav className="ml-auto" navbar>
-          <NavItem>
-            <NavLink to="/snacks">Snacks</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink to="/drinks">Drinks</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink exact to="/add" className="mr-0">
-              Add Item
-            </NavLink>
-          </NavItem>
-        </Nav>
+            <NavDropdown title="Portfolio" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+            </NavDropdown>
+          </Nav>
+        </Navbar.Collapse>
       </Navbar>
     </div>
   );
