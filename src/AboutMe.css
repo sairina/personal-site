@@ -1,15 +1,19 @@
 .AboutMe {
   display: flex;
   background-color: black;
-  justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   height: 85vh;
   color: #fff;
   flex-direction: column;
+  overflow-y: auto;
 }
 
 h1 {
   font-size: 70px;
   font-weight: 700;
   margin-bottom: 30px;
+}
+
+.AboutMe-Col p {
+  margin: 0 50px 10px 50px;
 }
