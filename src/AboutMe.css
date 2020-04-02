@@ -1,0 +1,15 @@
+.AboutMe {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  color: #fff;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
