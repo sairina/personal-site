@@ -1,5 +1,7 @@
 .Footer {
-  margin-top: 15px;
+  padding-top: 15px;
+  background-color: #343a40;
+  padding-bottom: 15px;
 }
 
 .Footer-links {
