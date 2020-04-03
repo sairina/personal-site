@@ -16,11 +16,7 @@ export const AnimatedSwitch = ({ history, location, children, ...rest }) => {
   const reverse = location.pathname === "/";
 
   return (
-    <PoseGroup
-      flipMove={false}
-      preEnterPose={reverse ? "leftSide" : "rightSide"}
-      exitPose={reverse ? "rightSide" : "leftSide"}
-    >
+    <PoseGroup>
       <ContextRouteAnimation key={location.pathname} reverse={reverse}>
         <Switch location={location} {...rest}>
           {children}
@@ -37,34 +33,35 @@ export default AnimatedSwitch;
  * Try to change up the different commented values for varying animatmions
  */
 export const ContextRouteAnimation = posed.div({
-  enter: {
-    x: 0,
-    // opacity: 1,
-    // scale: 1,
-    transition: {
-      type: "tween",
-      ease: "easeInOut",
-      duration: 400
-    }
-  },
-  leftSide: {
-    x: "-100%",
-    // opacity: 0,
-    // scale: 1.5,
-    transition: {
-      type: "tween",
-      ease: "easeInOut",
-      duration: 400
-    }
-  },
-  rightSide: {
-    x: "100%",
-    // opacity: 0,
-    // scale: 1.5,
-    transition: {
-      type: "tween",
-      ease: "easeInOut",
-      duration: 400
-    }
-  }
+  enter: { opacity: 1, delay: 300 },
+  exit: { opacity: 0 }
+    // x: 0,
+    // // opacity: 1,
+    // // scale: 1,
+    // transition: {
+    //   type: "tween",
+    //   ease: "easeInOut",
+    //   duration: 400
+    // }
+  // },
+  // leftSide: {
+  //   x: "-100%",
+  //   // opacity: 0,
+  //   // scale: 1.5,
+  //   transition: {
+  //     type: "tween",
+  //     ease: "easeInOut",
+  //     duration: 400
+  //   }
+  // },
+  // rightSide: {
+  //   x: "100%",
+  //   // opacity: 0,
+  //   // scale: 1.5,
+  //   transition: {
+  //     type: "tween",
+  //     ease: "easeInOut",
+  //     duration: 400
+  //   }
+  // }
 });

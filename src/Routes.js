@@ -8,7 +8,7 @@ import Projects from './Projects';
 import Resume from './Resume';
 import Contact from './Contact';
 
-const Routes = withRouter(({ location }) => {
+function Routes({ location }) {
   return (
     <div className="Routes">
       <section className="Routes-section">
@@ -31,7 +31,7 @@ const Routes = withRouter(({ location }) => {
         </AnimatedSwitch>
       </section>
     </div>
-  )
-});
+  );
+}
 
-export default Routes;
+export default withRouter(Routes);
