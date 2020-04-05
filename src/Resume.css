@@ -1,0 +1,13 @@
+.Resume {
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  color: #fff
+}
+
+.Resume h1 {
+  font-size: 70px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
