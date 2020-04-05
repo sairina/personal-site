@@ -13,10 +13,12 @@ function Resume() {
       </Row>
       <Row>
         <Col md={6}>
-          <div class="">
-
-            <ListGroup variant="flush">
-              <ListGroup.Item>Cras justo odio</ListGroup.Item>
+          <div>
+            <ListGroup className="Resume-ListGroup" variant="flush">
+              <ListGroup.Item><h3>Education</h3>
+                <h4>Full Stack Software Engineering | 2020</h4>
+                <h5>Rithm School</h5>
+                <p>Edie Windsor Scholar</p></ListGroup.Item>
               <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
               <ListGroup.Item>Morbi leo risus</ListGroup.Item>
               <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
