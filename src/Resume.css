@@ -3,7 +3,8 @@
   justify-content: center;
   align-items: center;
   height: 85vh;
-  color: #fff
+  color: #fff;
+  overflow-y: auto;
 }
 
 .Resume h1 {
@@ -12,7 +13,7 @@
   margin-bottom: 30px;
 }
 
-.Resume-ListGroup {
-  background-color: black;
+.Resume-Education-Item {
+  margin: 50px;
   text-align: left;
 }

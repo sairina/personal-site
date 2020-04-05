@@ -12,11 +12,19 @@ function Resume() {
       </Row>
       <Row>
         <Col md={6}>
-          <h3>Education</h3>
+          <h2>Education</h2>
           <div className="Resume-Education-Item">
-            <h4>Full Stack Software Engineering | 2020</h4>
+            <h4>Full Stack Software Engineering</h4>
             <h5>Rithm School</h5>
             <p>Edie Windsor Scholar</p>
+          </div>
+          <div className="Resume-Education-Item">
+            <h4>Master of Science, Secondary Science Education</h4>
+            <p>City University of New York, Lehman College</p>
+          </div>
+          <div className="Resume-Education-Item">
+            <h4>Bachelor of Arts, Anthropology</h4>
+            <p>New York University</p>
           </div>
         </Col>
         <Col md={6}>
