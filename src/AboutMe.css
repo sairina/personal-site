@@ -13,11 +13,11 @@ h1 {
 }
 
 .AboutMe-Col {
-  margin: 100px 50px;
+  margin: 50px 50px;
 }
 
 .AboutMe-Image {
-  max-width: 500px;
+  max-width: 300px;
   height: auto;
 }
 
@@ -26,5 +26,5 @@ h1 {
 }
 
 .AboutMe-Col p {
-  margin: 0 50px 10px 50px;
+  margin: 0 20px 10px 20px;
 }

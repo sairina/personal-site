@@ -37,11 +37,6 @@ function AboutMe() {
           <Button variant="success">Download Resume</Button>
         </Col>
       </Row>
-      <Row className="justify-content-md-center">
-        <Col>
-          <h1>About Me</h1>
-        </Col>
-      </Row>
     </Container >
   );
 }
