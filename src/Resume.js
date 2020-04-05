@@ -3,12 +3,16 @@ import './Resume.css';
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Button from 'react-bootstrap/Button';
 
 function Resume() {
   return (
     <Container fluid className="Resume">
       <Row className="justify-content-md-center">
-        <Col md="auto"><h1>Resume</h1></Col>
+        <Col md="auto">
+          <h1>Resume</h1>
+          <Button variant="success">Download Resume</Button>
+        </Col>
       </Row>
       <Row>
         <Col className="Resume-Col" md={6}>
