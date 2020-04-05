@@ -1,7 +1,6 @@
 import React from "react";
 import { Switch } from "react-router-dom";
 import posed, { PoseGroup } from "react-pose";
-// import "./styles.css";
 
 /**
  * This component is used to control the routing animation.
@@ -28,40 +27,7 @@ export const AnimatedSwitch = ({ history, location, children, ...rest }) => {
 
 export default AnimatedSwitch;
 
-
-/**
- * Try to change up the different commented values for varying animatmions
- */
 export const ContextRouteAnimation = posed.div({
   enter: { opacity: 1, delay: 300 },
   exit: { opacity: 0 }
-    // x: 0,
-    // // opacity: 1,
-    // // scale: 1,
-    // transition: {
-    //   type: "tween",
-    //   ease: "easeInOut",
-    //   duration: 400
-    // }
-  // },
-  // leftSide: {
-  //   x: "-100%",
-  //   // opacity: 0,
-  //   // scale: 1.5,
-  //   transition: {
-  //     type: "tween",
-  //     ease: "easeInOut",
-  //     duration: 400
-  //   }
-  // },
-  // rightSide: {
-  //   x: "100%",
-  //   // opacity: 0,
-  //   // scale: 1.5,
-  //   transition: {
-  //     type: "tween",
-  //     ease: "easeInOut",
-  //     duration: 400
-  //   }
-  // }
 });

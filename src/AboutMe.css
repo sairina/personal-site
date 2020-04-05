@@ -1,17 +1,28 @@
 .AboutMe {
-  display: flex;
   background-color: black;
-  align-items: flex-start;
+  text-align: center;
   height: 85vh;
   color: #fff;
-  flex-direction: column;
   overflow-y: auto;
 }
 
 h1 {
   font-size: 70px;
   font-weight: 700;
-  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+.AboutMe-Col {
+  margin: 100px 50px;
+}
+
+.AboutMe-Image {
+  max-width: 500px;
+  height: auto;
+}
+
+.AboutMe-Col h2 {
+  margin-bottom: 50px;
 }
 
 .AboutMe-Col p {
