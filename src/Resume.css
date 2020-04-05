@@ -13,7 +13,23 @@
   margin-bottom: 30px;
 }
 
-.Resume-Education-Item {
-  margin: 50px;
+.Resume h2 {
+  margin-bottom: 30px;
+}
+
+.Resume-Col {
+  padding-left: 100px;
+  padding-right: 50px;
   text-align: left;
+}
+
+.Resume-Item {
+  margin-left: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 32px;
+  padding-top: 32px;
+  padding-left: 48px;
+  text-align: left;
+  border-bottom: 1px solid #313131;
+  border-left: 2px solid #009e66;
 }
