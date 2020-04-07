@@ -1,8 +1,5 @@
 .AboutMe {
-  background-color: black;
-  text-align: center;
   height: 85vh;
-  color: #fff;
   overflow-y: auto;
 }
 
