@@ -11,8 +11,7 @@ function Resume() {
       <Row className="justify-content-md-center">
         <Col md="auto">
           <h1>Resume</h1>
-          <Button variant="success">Download Resume</Button>
-        </Col>
+          <Button variant="success" href="/files/download-file.pdf" download="Merino-Tsui-Resume" target="_blank">Download Resume</Button>        </Col>
       </Row>
       <Row>
         <Col className="Resume-Col" md={6}>
@@ -49,10 +48,6 @@ function Resume() {
           <div className="Resume-Item">
             <h4>Director, Science Content Specialist</h4>
             <h5>Teach for America</h5>
-          </div>
-          <div className="Resume-Item">
-            <h4>Academic Dean</h4>
-            <h5>Leadership Public Schools, Oakland R&D</h5>
           </div>
         </Col>
       </Row>

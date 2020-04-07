@@ -34,7 +34,7 @@ function AboutMe() {
           <p>
             And I am excited to use my new skills to bring my experience in leading teams, collaborating, and problem-solving to create more opportunities for learning for others.
           </p>
-          <Button variant="success">Download Resume</Button>
+          <Button variant="success" href="/files/download-file.pdf" download="Merino-Tsui-Resume" target="_blank">Download Resume</Button>
         </Col>
       </Row>
     </Container >
