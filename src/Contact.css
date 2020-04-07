@@ -1,0 +1,27 @@
+.Contact {
+  height: 85vh;
+  overflow-y: auto;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+.Contact-Col {
+  margin: 50px 50px;
+}
+
+.Contact-Image {
+  max-width: 300px;
+  height: auto;
+}
+
+.Contact-Col h2 {
+  margin-bottom: 50px;
+}
+
+.Contact-Col p {
+  margin: 0 20px 10px 20px;
+}
