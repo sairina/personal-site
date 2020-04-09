@@ -32,7 +32,7 @@ function AboutMe() {
             I became an Edie Windsor Scholar and joined the Rithm School, where I learned to code.
           </p>
           <p>
-            And I am excited to use my new skills to bring my experience in leading teams, collaborating, and problem-solving to create more opportunities for learning for others.
+            And I am excited to use my new skills to bring my experience in leading teams, collaborating, and problem-solving to create more opportunities for learning.
           </p>
           <Button variant="success" href="/files/download-file.pdf" download="Merino-Tsui-Resume">Download Resume</Button>
         </Col>
