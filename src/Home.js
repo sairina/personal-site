@@ -3,25 +3,12 @@ import './Home.css';
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Loading from "../Loading";
+// import Loading from "./Loading";
 
 function Home() {
-  const [loading, setIsLoading] = useState(true);
+  // const [loading, setIsLoading] = useState(true);
 
-  useEffect(() => {
-    const getData = async () => {
-      let response = await getIntakeFields();
-      if (response.errors) {
-        setError(response.errors);
-      } else {
-        setFields(response.data);
-      }
-      setIsLoading(false);
-    };
-    getData();
-  }, [setIsLoading, setError]);
-
-  if (loading) return <Loading />;
+  // if (loading) return <Loading />;
 
   return (
     <Container fluid className="Home">
