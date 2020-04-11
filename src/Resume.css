@@ -17,12 +17,12 @@ Button {
 }
 
 .Resume h2 {
+  padding-top: 32px;
   margin-bottom: 30px;
 }
 
 .Resume-Col {
-  padding-left: 100px;
-  padding-right: 50px;
+  padding-right: 100px;
   text-align: left;
 }
 
