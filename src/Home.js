@@ -18,7 +18,7 @@ function Home() {
         <Col></Col>
         <Col md="auto"><h5>Seeking to use technology to elevate the voices and perspectives of marginalized communities.</h5></Col>
       </Row>
-    </Container >
+    </Container>
   );
 }
 
