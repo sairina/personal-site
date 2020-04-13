@@ -16,7 +16,7 @@ function NavBar() {
             <Nav.Link as={Link} to="/about-me">About</Nav.Link>
             <Nav.Link as={Link} to="/resume">Resume</Nav.Link>
 
-            <NavDropdown title="Portfolio" id="basic-nav-dropdown">
+            <NavDropdown title="Projects" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
