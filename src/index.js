@@ -2,7 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import WebFont from 'webfontloader';
 import * as serviceWorker from './serviceWorker';
+
+WebFont.load({
+  google: {
+    families: ['Montserrat:wght@700;800', 'Open+Sans', 'Roboto:wght@300']
+  }
+});
 
 ReactDOM.render(
   <React.StrictMode>
