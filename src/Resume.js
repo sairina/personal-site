@@ -14,66 +14,75 @@ function Resume() {
           <Button variant="success" href="/files/download-file.pdf" download="Merino-Tsui-Resume">Download Resume</Button>        </Col>
       </Row>
       <Row>
-        <Col sm={4}><h2>Programming Languages</h2></Col>
+        <Col sm={4}><h3>Programming Languages</h3></Col>
         <Col className="Resume-Col" sm={8}>
           <div className="Resume-Item">
-            <h5>JavaScript</h5>
-            <h5>Python</h5>
-            <h5>SQL</h5>
-            <h5>HTML/CSS</h5>
+            <p>JavaScript</p>
+            <p>Python</p>
+            <p>SQL</p>
+            <p>HTML/CSS</p>
           </div>
         </Col>
       </Row>
+      <Row className="Resume-Row-Blank"></Row>
       <Row>
-        <Col sm={4}><h2>Libraries and Frameworks</h2></Col>
+        <Col sm={4}><h3>Libraries and Frameworks</h3></Col>
         <Col className="Resume-Col" sm={8}>
           <div className="Resume-Item">
-            <h5>React</h5>
-            <h5>Redux</h5>
-            <h5>Express</h5>
-            <h5>Flask</h5>
-            <h5>PostgreSQL</h5>
-            <h5>mySQL</h5>
-            <h5>Jest</h5>
+            <p>React</p>
+            <p>Redux</p>
+            <p>Express</p>
+            <p>Flask</p>
+            <p>PostgreSQL</p>
+            <p>mySQL</p>
+            <p>Jest</p>
           </div>
         </Col>
       </Row>
+      <Row className="Resume-Row-Blank"></Row>
       <Row>
-        <Col sm={4}><h2>Work Experience</h2></Col>
+        <Col sm={4}><h3>Work Experience</h3></Col>
         <Col className="Resume-Col" sm={8}>
           <div className="Resume-Item">
-            <h4>Software Engineer</h4>
-            <h5>Clever Counsel LLC</h5>
-            <p>one</p>
+            <h5>Software Engineer</h5>
+            <p>Bet Tzedek LLC</p>
+            <ul>
+              <li> Modularlized routing with Blueprints in Flask to organize application into distinct components.</li>
+              <li>Built routes for and wired React component that displays employer information to intake route on backend, including a search route for web scraping capabilities.</li>
+              <li>Created user model and routes to MySQL database using an ORM for user signup and login.</li>
+              <li>Created React modal component on frontend to validate and display data from web scraping.</li>
+              <li>Increased test coverage by 15% by writing tests with Jest, React Testing Library, and Unittest.</li>
+            </ul>
           </div>
           <div className="Resume-Item">
-            <h4>Assistant Principal</h4>
-            <h5>KIPP King Collegiate High School</h5>
+            <h5>Assistant Principal</h5>
+            <p>KIPP King Collegiate High School</p>
           </div>
           <div className="Resume-Item">
-            <h4>Dean of Science</h4>
-            <h5>The Weber School</h5>
+            <h5>Dean of Science</h5>
+            <p>The Weber School</p>
           </div>
           <div className="Resume-Item">
-            <h4>Director, Science Content Specialist</h4>
-            <h5>Teach for America</h5>
+            <h5>Director, Science Content Specialist</h5>
+            <p>Teach for America</p>
           </div>
         </Col>
       </Row>
+      <Row className="Resume-Row-Blank"></Row>
       <Row>
-        <Col sm={4}><h2>Education</h2></Col>
+        <Col sm={4}><h3>Education</h3></Col>
         <Col className="Resume-Col" sm={8}>
           <div className="Resume-Item">
-            <h4>Full Stack Software Engineering</h4>
-            <h5>Rithm School</h5>
-            <p>Edie Windsor Scholar</p>
+            <h5>FULL STACK SOFTWARE ENGINEER</h5>
+            <p>Rithm School</p>
+            <em>Edie Windsor Scholar</em>
           </div>
           <div className="Resume-Item">
-            <h4>Master of Science, Secondary Science Education</h4>
+            <h5>MASTER OF SCIENCE, SECONDARY SCIENCE EDUCATION</h5>
             <p>City University of New York, Lehman College</p>
           </div>
           <div className="Resume-Item">
-            <h4>Bachelor of Arts, Anthropology</h4>
+            <h5>BACHELOR OF ARTS, ANTRHOPOLOGY</h5>
             <p>New York University</p>
           </div>
         </Col>

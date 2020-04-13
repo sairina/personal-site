@@ -16,6 +16,10 @@ Button {
   margin-bottom: 30px;
 }
 
+.Resume-Row-Blank {
+  padding: 30px;
+}
+
 .Resume h2 {
   padding-top: 32px;
   margin-bottom: 30px;
@@ -26,13 +30,20 @@ Button {
   text-align: left;
 }
 
+.Resume h3 {
+  margin-top: 20px;
+}
 .Resume-Item {
   margin-left: 0px;
   margin-bottom: 0px;
-  padding-bottom: 32px;
-  padding-top: 32px;
-  padding-left: 48px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 30px;
   text-align: left;
-  border-bottom: 1px solid #313131;
+  /* border-bottom: 1px solid #313131; */
   border-left: 2px solid #009e66;
+}
+
+.Resume-Item p, h5 {
+  margin-bottom: 0;
 }
