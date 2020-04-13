@@ -10,6 +10,7 @@
 .Resume h1 {
   font-size: 70px;
   font-weight: 700;
+  margin-bottom: 40px;
 }
 
 Button {
@@ -44,6 +45,12 @@ Button {
   border-left: 2px solid #009e66;
 }
 
-.Resume-Item p, h5 {
+.Resume-Item h5 {
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.Resume-Item p {
   margin-bottom: 0;
 }
