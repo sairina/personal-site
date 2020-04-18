@@ -19,7 +19,7 @@ function Projects() {
         </Col>
       </Row>
       <Row className="Projects-Row">
-        <Col xs={6} className="Projects-Col">
+        <Col lg={true} className="Projects-Col">
           <h2>Warbler</h2>
           <h5>A Twitter clone with a cooler bird.</h5>
           <Carousel>
@@ -62,7 +62,7 @@ function Projects() {
             Git Repo
           </Button>
         </Col>
-        <Col xs={6} className="Projects-Col">
+        <Col lg={true} className="Projects-Col">
           <h2>TBD</h2>
           <h5>TBD</h5>
         </Col>
