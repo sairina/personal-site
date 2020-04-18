@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import './Projects.css';
 import Carousel from 'react-bootstrap/Carousel';
+import Button from 'react-bootstrap/Button';
 import WarblerIdx from '../src/images/warbler-index.png';
 import WarblerProfile from '../src/images/warbler-profile.png';
 import WarblerWarbles from '../src/images/warbler-warbles.png';
@@ -44,6 +45,22 @@ function Projects() {
               />
             </Carousel.Item>
           </Carousel>
+          <Button 
+            className="Projects-Button"
+            variant="primary" 
+            href="https://warbler-demo-sairina.herokuapp.com/" 
+            target="_blank" 
+            rel="noreferrer noopener">
+            Warbler Demo
+          </Button>
+          <Button 
+            className="Projects-Button"
+            variant="primary" 
+            href="https://github.com/sairina/warbler" 
+            target="_blank" 
+            rel="noreferrer noopener">
+            Git Repo
+          </Button>
         </Col>
         <Col xs={6} className="Projects-Col">
           <h2>TBD</h2>

@@ -7,4 +7,13 @@ h1 {
   font-size: 70px;
   font-weight: 700;
   margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.Projects-Row {
+  margin: auto;
+}
+
+.Projects-Button {
+  margin: 20px;
 }
