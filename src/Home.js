@@ -1,15 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './Home.css';
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-// import Loading from "./Loading";
 
 function Home() {
-  // const [loading, setIsLoading] = useState(true);
-
-  // if (loading) return <Loading />;
-
   return (
     <Container fluid className="Home">
       <Row className="justify-content-md-center">
