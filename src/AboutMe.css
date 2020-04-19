@@ -4,15 +4,7 @@
 }
 
 h1 {
-  font-size: 70px;
-  font-weight: 700;
   margin-top: 50px;
-}
-
-@media screen and (max-width: 360px) {
-  h1 {
-    line-height: 80%;
-  }
 }
 
 .AboutMe-Image {
@@ -28,4 +20,8 @@ h1 {
 .AboutMe-Col p {
   margin: 0 40px 15px 40px;
   text-align: justify;
+}
+
+.AboutMe-Button {
+  margin-bottom: 40px;
 }
