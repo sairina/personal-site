@@ -17,7 +17,7 @@ function NavBar() {
             <Nav.Link as={Link} to="/about-me">About</Nav.Link>
             <Nav.Link as={Link} to="/resume">Resume</Nav.Link>
 
-            <NavDropdown title="Projects" id="basic-nav-dropdown">
+            <NavDropdown title="Projects" id="basic-nav-dropdown" alignRight>
               <NavDropdown.Item as={Link} to="/projects">All projects</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item target="_blank" href="https://warbler-demo-sairina.herokuapp.com/">DEMO: Warbler</NavDropdown.Item>
