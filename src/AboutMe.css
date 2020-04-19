@@ -15,19 +15,17 @@ h1 {
   }
 }
 
-.AboutMe-Col {
-  margin: 50px 50px;
-}
-
 .AboutMe-Image {
   max-width: 300px;
   height: auto;
+  margin-bottom: 20px;
 }
 
-.AboutMe-Col h2 {
-  margin-bottom: 50px;
+.AboutMe-Col h3 {
+  margin: 0 40px 20px 40px;
 }
 
 .AboutMe-Col p {
+  margin: 0 40px 15px 40px;
   text-align: justify;
 }
