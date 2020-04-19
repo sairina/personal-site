@@ -23,7 +23,7 @@ function NavBar() {
               <NavDropdown.Item target="_blank" href="https://warbler-demo-sairina.herokuapp.com/">DEMO: Warbler</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">DEMO: Microblog</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
+            {/* <Nav.Link as={Link} to="/contact">Contact</Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
       </Navbar>
