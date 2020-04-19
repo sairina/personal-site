@@ -9,7 +9,7 @@ function Home() {
     <Container fluid className="Home">
       <Row className="justify-content-md-center">
         <Col md="auto"><h1>Sairina Merino Tsui</h1></Col>
-        <Col md="auto"><h5>Seeking to use technology to elevate the voices and perspectives of marginalized communities.</h5></Col>
+        <Col md="auto"><h5>Using technology to elevate the voices and perspectives of marginalized communities.</h5></Col>
       </Row>
     </Container>
   );

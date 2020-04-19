@@ -1,6 +1,8 @@
-.NavBar-Link {
-  color: red;
+.NavBar-Brand {
+  color: orange;
   text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .NavBar-Link:hover {
@@ -9,4 +11,8 @@
 
 .NavBar-Link:active {
   color: black;
+}
+
+.NavBar-Link {
+  font-family: 'Montserrat', sans-serif;
 }

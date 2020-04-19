@@ -9,11 +9,11 @@ function NavBar() {
     <div>
       <Navbar sticky="top" bg="dark" variant="dark" expand="lg">
         <Navbar.Brand>
-          <Link className="NavBar-Link" to="/">Sairina</Link>
+          <Link className="NavBar-Brand" to="/">Sairina</Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ml-auto">
+          <Nav className="ml-auto NavBar-Link">
             <Nav.Link as={Link} to="/about-me">About</Nav.Link>
             <Nav.Link as={Link} to="/resume">Resume</Nav.Link>
 
