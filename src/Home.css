@@ -6,6 +6,11 @@
   color: #fff
 }
 
+@media screen and (max-width: 360px) {
+  .Home {
+    height: 100vh;
+  }
+
 .Home h1 {
   font-size: 70px;
   font-weight: 700;
