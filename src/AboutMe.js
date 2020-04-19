@@ -15,12 +15,12 @@ function AboutMe() {
           <h1>About Me</h1>
         </Col>
       </Row>
-      <Row className="justify-content-md-center">
+      <Row>
         <Col className="AboutMe-Col">
           <Image thumbnail className="AboutMe-Image" src={headshot} alt="About Picture" />
         </Col>
         <Col className="AboutMe-Col">
-          <h2>I'm Sairina, and I'm a software engineer.</h2>
+          <h3>I'm Sairina, and I'm a software engineer.</h3>
           <p>
             I believe that the best work always comes from a collaboration of a diverse set of voices and experiences.
             And after 10 years in urban education, I've realized that we are missing the voices of marginalized communities in our tech spaces.
@@ -32,7 +32,7 @@ function AboutMe() {
             I became an Edie Windsor Scholar and joined the Rithm School, where I learned to code.
           </p>
           <p style={{'marginBottom':'40px'}}>
-            And I am excited to use my new skills to bring my experience in leading teams, collaborating, and problem-solving to create more opportunities for learning.
+            And I am excited to use my new skills to bring my experience in leading teams, collaborating, and problem-solving to create more opportunities.
           </p>
           <Button variant="success" href="/files/download-file.pdf" download="Merino-Tsui-Resume">Download Resume</Button>
         </Col>
