@@ -11,7 +11,7 @@ function Resume() {
       <Row className="justify-content-md-center" style={{marginBottom:"50px"}}>
         <Col md="auto">
           <h1>Resume</h1>
-          <Button variant="success" href="/files/download-file.pdf" download="Merino-Tsui-Resume">Download Resume</Button>        </Col>
+          <Button variant="success" href="Resume_Sairina_MerinoTsui_2020.pdf" download="Merino-Tsui-Resume">Download Resume</Button>        </Col>
       </Row>
       <Row>
         <Col sm={4}><h3>Programming Languages</h3></Col>

@@ -34,7 +34,7 @@ function AboutMe() {
           <p style={{'marginBottom':'40px'}}>
             And I am excited to use my new skills to bring my experience in leading teams, collaborating, and problem-solving to create more opportunities.
           </p>
-          <Button className="AboutMe-Button" variant="success" href="/files/download-file.pdf" download="Merino-Tsui-Resume">Download Resume</Button>
+          <Button className="AboutMe-Button" variant="success" href="Resume_Sairina_MerinoTsui_2020.pdf" download="Merino-Tsui-Resume">Download Resume</Button>
         </Col>
       </Row>
     </Container >
