@@ -8,6 +8,7 @@ import Button from 'react-bootstrap/Button';
 import WarblerIdx from '../src/images/warbler-index.png';
 import WarblerProfile from '../src/images/warbler-profile.png';
 import WarblerWarbles from '../src/images/warbler-warbles.png';
+import JoblyIdx from '../src/images/jobly-home.png';
 
 
 function Projects() {
@@ -45,26 +46,51 @@ function Projects() {
               />
             </Carousel.Item>
           </Carousel>
-          <Button 
+          <Button
             className="Projects-Button"
-            variant="primary" 
-            href="https://warbler-demo-sairina.herokuapp.com/" 
-            target="_blank" 
+            variant="primary"
+            href="https://warbler-demo-sairina.herokuapp.com/"
+            target="_blank"
             rel="noreferrer noopener">
             Warbler Demo
           </Button>
-          <Button 
+          <Button
             className="Projects-Button"
-            variant="primary" 
-            href="https://github.com/sairina/warbler" 
-            target="_blank" 
+            variant="primary"
+            href="https://github.com/sairina/warbler"
+            target="_blank"
             rel="noreferrer noopener">
             Git Repo
           </Button>
         </Col>
         <Col lg={true} className="Projects-Col">
-          <h2>TBD</h2>
-          <h5>TBD</h5>
+          <h2>Jobly</h2>
+          <h5>Finding a job has never been more intuitive.</h5>
+          <Carousel>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={JoblyIdx}
+                alt="Jobly Home Page"
+              />
+            </Carousel.Item>
+          </Carousel>
+          <Button
+            className="Projects-Button"
+            variant="primary"
+            href=""
+            target="_blank"
+            rel="noreferrer noopener">
+            Jobly Demo (TBD)
+          </Button>
+          <Button
+            className="Projects-Button"
+            variant="primary"
+            href="https://github.com/sairina/react-jobly"
+            target="_blank"
+            rel="noreferrer noopener">
+            Git Repo
+          </Button>
         </Col>
       </Row>
     </Container>
