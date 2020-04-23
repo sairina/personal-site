@@ -78,10 +78,10 @@ function Projects() {
           <Button
             className="Projects-Button"
             variant="primary"
-            href=""
+            href="https://jobly-demo-sairina.herokuapp.com"
             target="_blank"
             rel="noreferrer noopener">
-            Jobly Demo (TBD)
+            Jobly Demo
           </Button>
           <Button
             className="Projects-Button"
