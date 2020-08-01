@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import Image from 'react-bootstrap/Image';
-import headshot from '../src/images/filler_headshot.jpg';
+import headshot from '../src/images/IMG_2210.update.png';
 
 function AboutMe() {
   return (
