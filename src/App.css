@@ -3,6 +3,7 @@
   background-color: black;
   color: white;
   overflow-y: auto;
+  height: 100vh;
 }
 
 .App-logo {
