@@ -18,11 +18,15 @@
   color: black;
 }
 
+.Home h5 {
+  color: black;
+}
+
 .boxy {
-  background-color: white;
-  opacity: 0.6;
-  margin: 50px;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  background-color: #BFD7EA;
+  opacity: 0.8;
+  /* margin: 50px; */
+  padding-top: 50px;
+  padding-bottom: 50px;
 
 }
