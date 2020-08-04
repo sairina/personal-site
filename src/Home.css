@@ -2,12 +2,27 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 85vh;
-  color: #fff
+  height: 90vh;
+  color: #fff;
+  background-image: url('../src/images/web_goto_720x_copy.png');
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-color: #211F1F;
+  /* background-size: cover; */
 }
 
 .Home h1 {
   margin-bottom: 30px;
   font-size: 60px;
   font-weight: 700;
+  color: black;
+}
+
+.boxy {
+  background-color: white;
+  opacity: 0.6;
+  margin: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
 }
